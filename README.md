@@ -19,8 +19,7 @@ Besides the instance variable linesOfCodeWrittenPerDay / linesOfCodeTestedPerDay
 
 
 A constructor, getters/setters, and toString() method for the Programmer and Tester classes are implemented. 
- 
-We defined the Project class, which models a software development project. It has the following properties:
+ We defined the Project class, which models a software development project. It has the following properties:
     linesOfCode: an estimate of the number of lines of code the project will require 
     linesOfCodeWritten: the number of lines of code that have been written by the programmers working on it.
     linesOfCodeTested: the number of lines of code that have been tested so far.
