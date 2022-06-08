@@ -27,11 +27,15 @@ A constructor, getters/setters, and toString() method for the Programmer and Tes
     employees: a List that stores the employees that are associated with the project. 
 
 Constructor: takes in the number of lines of code for the project and required duration.
+
 addEmployee (AbleToWork employee): adds an employee to the project. Since Programmer and Tester are sub-type of AbleToWork, 
                                    we could use a formal parameter with type AbleToWork to accept either Programmer or Tester actual                                      parameter.
+                                   
 int doProject(): do the project. Each day, as long as the project is not complete, it should call each employee's work method. 
                  It must return the number of days the project took. 
+                 
 Getters and Setters 
+
 Driver class TestProject:
                          In the main method, we created a new instance of Project, 
                                   added a few programmers and testers, 
